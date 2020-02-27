@@ -17,6 +17,10 @@
   display: none;
 }
 
+.text-cent{
+  text-align: center;
+}
+
 /* regole di colonne */
 
 [class*="col-"] {
@@ -69,7 +73,7 @@
       width: calc(( 100% / 12)*12);
   }
 
-  /* regole di ofgfset */
+  /* regole di offset */
 
   .col-xs-offset-1 {
     margin-left: calc((100% / 12) * 1);
